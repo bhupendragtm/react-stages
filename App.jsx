@@ -1,16 +1,17 @@
-const youtuber = 'Thapa technical';
+import React from 'react';
+import {add, sub, mult, div} from "./Calc";
 
-const perm_address = "Pokhara";
-
-function myName() {
-  let name = 'Bhupendra';
-  return name;
+function App(){
+  return(
+    <>
+<ul>
+<li>The sum of two no is {add(40, 4)}</li>
+<li> {sub(40, 4)}</li>
+<li> {mult(40, 4)}</li>
+<li> {(41, 4)}</li>
+</ul>
+</>
+);
 }
 
-function myNames() {
-  let names = "Bhupendra Gautam";
-  return names;
-}
-export default youtuber;
-
-export {perm_address, myName, myNames};
+export default App;
