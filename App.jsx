@@ -5,11 +5,11 @@ const App = () => {
   const state = useState();
   //console.log(state);
 
-  const [count, setCount] = useState(50);
+  const [count, setCount] = useState(0);
 
 
   const IncNum = () => {
-    setCount(100);
+    setCount(count + 1);
     console.log(state);
     // setCount (count +1);
     //console.log("clicked " + count++);
