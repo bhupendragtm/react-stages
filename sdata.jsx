@@ -3,37 +3,38 @@ const Sdata = [
      sname:"Dark0",
      imgsrc:"https://uproxx.com/wp-content/uploads/2019/05/cp5_102_unit_02442r-jpg.jpeg",
      title: "Netflix Original Series",
-     links:"www.google.com",
+     links:"https://www.google.com/",
  },
  {
     sname:"Dark1",
-    imgsrc:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.oneworldnews.com%2Fweekend-special-top-5-netflix-series-you-should-binge-watch-abhi-ke-abhi%2F&psig=AOvVaw08gHZdkzlaK_twm1UBva85&ust=1615980483513000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCQ2NTatO8CFQAAAAAdAAAAABAD",
+    imgsrc:"https://observer.com/wp-content/uploads/sites/2/2020/07/netflix-dark-season-3-ending-1.jpg?quality=80",
     title: "Netflix Original Series",
-    links:"www.google.com",
+    links:"https://www.facebook.com/",
 },
 {
     sname:"Dark2",
-    imgsrc:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.xitimonitor.com%2Fnews%2Fworld%2Ftop-5-sf-movies-and-sf-series-to-watch-on-netflix-in-2020%2F&psig=AOvVaw08gHZdkzlaK_twm1UBva85&ust=1615980483513000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCQ2NTatO8CFQAAAAAdAAAAABAJ",
+    imgsrc:"https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/11/Best-tv-shows-Netflix-V3.png",
     title: "Netflix Original Series",
-    links:"www.google.com",
+    links:"https://www.twitter.com/",
 },
 {
     sname:"Dark3",
-    imgsrc:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcollider.com%2Fbest-tv-shows-on-netflix-right-now%2F&psig=AOvVaw08gHZdkzlaK_twm1UBva85&ust=1615980483513000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCQ2NTatO8CFQAAAAAdAAAAABAP",
+    imgsrc:"https://static0.srcdn.com/wordpress/wp-content/uploads/2020/12/10-Highest-Rated-Netflix-Original-Series-According-To-Rotten-Tomatoes-Feature-Image.jpg",
     title: "Netflix Original Series",
-    links:"www.google.com",
+    links:"https://www.skype.com/",
 },
 {
     sname:"Dark4",
     imgsrc:"https://otakukart.com/wp-content/uploads/2020/12/whats-best-to-binge-on-netflix-in-2020.png",
     title: "Netflix Original Series",
-    links:"www.google.com",
+    links:"https://www.bhupendragautam.com.np/",
 },
-{
-    sname:"Dark5",
-    imgsrc:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thewildcatroar.com%2Fentertainment%2F2020%2F04%2F16%2Ftop-5-netflix-shows-right-now%2F&psig=AOvVaw08gHZdkzlaK_twm1UBva85&ust=1615980483513000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCQ2NTatO8CFQAAAAAdAAAAABAh",
-    title: "Netflix Original Series",
-    links:"www.google.com",
-},]
+// {
+//     sname:"Dark5",
+//     imgsrc:"https://www.adweek.com/wp-content/uploads/2017/12/tv-shows-to-watch-PAGE-2018.jpg",
+//     title: "Netflix Original Series",
+//     links:"www.google.com",
+// },
+];
 
 export default Sdata;

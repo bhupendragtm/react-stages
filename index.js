@@ -2,30 +2,43 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from "./Cards";
 import'./index.css';
-import $data from './sdata';
+import Sdata from './sdata';
 
-console.log($data[0]);
+//console.log(Sdata[0].sname);
 
 ReactDOM.render(
   <>
   <h1 className="heading_style">List of Top 3 Netflix Series 2020</h1>
 <Card
-  imgsrc="https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_.jpg"
-  title="Netflix Original Series."
-  sname="Dark"
-  href="https://www.netflix.com/np/title/80100172"
+  className="randome_class"
+  imgsrc={Sdata[0].imgsrc}
+  title={Sdata[0].title}
+  sname={Sdata[0].sname}
+  href={Sdata[0].Sdata}
 />
 <Card
- imgsrc="https://uproxx.com/wp-content/uploads/2016/12/bojack_horseman_s03e04_19m55s2391f.jpeg"
-  title="Netflix Original Series."
-  sname="BoJack Horseman"
-  href="https://www.youtube.com/watch?v=i1eJMig5Ik4"
+  imgsrc={Sdata[1].imgsrc}
+  title={Sdata[1].title}
+  sname={Sdata[1].sname}
+  href={Sdata[1].links}
 />
 <Card
-  imgsrc="https://uproxx.com/wp-content/uploads/2020/08/ozark-bateman-garner-feat.jpg"
-  title="Netflix Original Series."
-  sname="Stranger Things"
-  href="https://www.youtube.com/watch?v=mnd7sFt5c3A"
+  imgsrc={Sdata[2].imgsrc}
+  title={Sdata[2].title}
+  sname={Sdata[2].sname}
+  href={Sdata[2].links}
+/>
+<Card
+  imgsrc={Sdata[3].imgsrc}
+  title={Sdata[3].title}
+  sname={Sdata[3].sname}
+  href={Sdata[3].links}
+/>
+<Card
+  imgsrc={Sdata[4].imgsrc}
+  title={Sdata[4].title}
+  sname={Sdata[4].sname}
+  href={Sdata[4].links}
 />
 </>,
 document.getElementById("root"));

@@ -52,3 +52,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.randome_class {
+  color: red;
+}
