@@ -58,6 +58,7 @@ code {
 }
 
 button {
+  margin: 12px;
   padding: 12px 20px;
   background: #09d8e7;
   color: white;
@@ -67,6 +68,19 @@ button {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+input {
+  margin: 12px;
+  padding: 12px 1920px;
+  background: #ecf0f1;
+  color: rgb(9, 226, 226);
+  border: 2px solid hsl(91, 93%, 47%);
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 
 div{
   width: 100%;
