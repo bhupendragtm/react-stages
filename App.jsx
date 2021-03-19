@@ -1,13 +1,33 @@
 import React, {useState} from 'react';
 
 const App = () => {
-const[fullName, setfullName] = useState({
+const[fullName, setFullName] = useState({
   fname : '',
   lname : '',
 });
 
 const inputEvent = (event) => {
   console.log(event.target.value);
+  console.log(event.target.name);
+
+  const value = event.target.value;
+  const name = event.target.name;
+
+  setFullName((preValue) => {
+  //console.log(event.target.name);
+    if(name === "fName"){
+      return{
+      fname : value,
+      lname : preValue.lname,
+      }
+     } else if (name === "lName")
+      return {
+  
+        fname : preValue.fname,
+        lname : value,
+      };
+    }
+  )
   };
 
 const onSubmits = (event) => {
@@ -24,18 +44,18 @@ return(
 
       <input type="text"
       placeholder="Enter Your Name."
-      name="fname"
+      name="fName"
       onChange={inputEvent}
-      //value = {fullName.fname}  
+      value = {fullName.fname}  
       />
       <br/>
       <input type="text"
       placeholder="Enter Your Last Name."
-      name="lname"
+      name="lName"
       onChange={inputEvent}
-     // value = {fullName.lname}  
+     value = {fullName.lname}  
       />
-      <button type='submit'>Submit Me</button>
+      <button type="submit">Submit Me</button>
     </div>
     </form>
   </div>
